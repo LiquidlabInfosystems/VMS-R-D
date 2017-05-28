@@ -1,0 +1,4 @@
+".\vms_arrow_blinking\STARTUP.obj",
+".\vms_arrow_blinking\vms_arrow_blinking.obj" 
+TO ".\vms_arrow_blinking\vms_arrow_blinking" 
+PRINT(".\vms_arrow_blinking.m51") RAMSIZE(256) 

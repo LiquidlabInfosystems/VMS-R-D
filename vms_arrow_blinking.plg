@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Rakesh\Liquidlab\Projects\PGS\VMS R&D\vms code\vms_arrow_blinking.uvproj
+Project File Date:  08/17/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling vms_arrow_blinking.c...
+VMS_ARROW_BLINKING\VMS_ARROW_BLINKING.C(39): error C129: missing ';' before 'int'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling vms_arrow_blinking.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_SEND_SERIAL_FULL?VMS_ARROW_BLINKING
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?SERIAL_INT?VMS_ARROW_BLINKING
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_SEND_SERIAL_DIGIT?VMS_ARROW_BLINKING
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?SERIAL_INT?VMS_ARROW_BLINKING
+Program Size: data=51.0 xdata=0 code=949
+creating hex file from ".\vms_arrow_blinking\vms_arrow_blinking"...
+".\vms_arrow_blinking\vms_arrow_blinking" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling vms_arrow_left_blinking.c...
+VMS_ARROW_LEFT_BLINKING\VMS_ARROW_LEFT_BLINKING.C(43): warning C280: 'i': unreferenced local variable
+VMS_ARROW_LEFT_BLINKING\VMS_ARROW_LEFT_BLINKING.C(43): warning C280: 'temp_digit_count': unreferenced local variable
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_SEND_SERIAL_FULL?VMS_ARROW_LEFT_BLINKING
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?SERIAL_INT?VMS_ARROW_LEFT_BLINKING
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_SEND_SERIAL_DIGIT?VMS_ARROW_LEFT_BLINKING
+    CALLER1: ?C_C51STARTUP
+    CALLER2: ?PR?SERIAL_INT?VMS_ARROW_LEFT_BLINKING
+Program Size: data=51.0 xdata=0 code=900
+creating hex file from ".\vms_arrow_left_blinking\vms_arrow_left_blinking"...
+".\vms_arrow_left_blinking\vms_arrow_left_blinking" - 0 Error(s), 4 Warning(s).
